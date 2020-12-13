@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<HTML>
+	<TITLE>Online Booking Page of BookYourTicket</TITLE>
+<HEAD>
+<STYLE type="text/css">
+#submit
+{
+margin-left:100px;
+}
+th
+{
+font-size:20px;
+background-color:green;
+}
+td
+{
+text-align:left;
+font-size:20px;
+}
+table
+{
+border:1px solid green;
+}
+form
+{
+float:left;
+margin-right:20px;
+}
+p
+{
+font-size:20px;
+}
+h2
+{
+background-color:green;
+border:1px solid green;
+margin-left:460px;
+}
+.auto-style
+{
+overflow-x:-webkit-marquee;
+-webkit-marquee-direction:up;
+-webkit-marquee-style:scroll;
+-webkit-marquee-speed:normal;
+-webkit-marquee-increment:small;
+-webkit-marquee-repetition:infinite;
+}
+
+</STYLE>
+</HEAD>
+<BODY>
+	<FORM name="form1">
+		<TABLE>
+		<TR>
+		<TH colspan="2">Book Your Tickets Online</TH>
+		</TR>
+		<TR>
+		<TD>Name</TD>
+		<TD><INPUT type="text" name="usrname" placeholder="Enter Your Name" required></TD>
+		</TR>
+		<TR>
+		<TD>Date of Booking</TD>
+		<TD><INPUT type="date" name="date" required></TD>
+		</TR>
+		<TR>
+		<TD>Movie</TD>
+		<TD><SELECT>
+		<OPTION value="0">Select Movie</OPTION>
+		<OPTGROUP label="Drama">
+		<OPTION value="1">Nightmare</OPTION>
+		<OPTION value="2">Along Polly Came</OPTION>
+		</OPTGROUP>
+		<OPTGROUP label="Thriller">
+		<OPTION value="3">Source Code</OPTION>
+		<OPTION value="4">If Only</OPTION>
+		</OPTGROUP>
+		<OPTGROUP label="Romantic">
+		<OPTION value="5">A Walk to remember</OPTION>
+		<OPTION value="6">Angel</OPTION>
+		</OPTGROUP>
+		</SELECT></TD>
+		</TR>
+		<TR>
+		<TD>Show Timings</TD>
+		<TD><SELECT>
+		<OPTION value="7">Select Time</OPTION>
+		<OPTION value="8">10:30AM</OPTION>
+		<OPTION value="9">5:30PM</OPTION>
+		<OPTION value="10">12:30PM</OPTION>
+		</SELECT></TD>
+		</TR>
+		<TR>
+		<TD>Select Class</TD>
+		<TD>
+		<INPUT type="radio" name="rb" required>Platinum</INPUT>
+		<INPUT type="radio" name="rb" required>Gold</INPUT>
+		<INPUT type="radio" name="rb" required>Exclusive</INPUT>
+		</TD>
+		</TR>
+		<TR>
+		<TD>Price</TD>
+		<TD><INPUT type="text" name="price" disabled></TD>
+		</TR>
+		<TR>
+		<TD>Number of Tickets</TD>
+		<TD><INPUT type="text" name="num" placeholder="Enter Tickets" required></TD>
+		</TR>
+		<TR>
+		<TD>Total Price</TD>
+		<TD><INPUT type="text" name="totalprice" disabled></TD>
+		</TR>
+		<TR>
+		<TD>
+		<BUTTON ID="submit" type="submit"><P>Submit</P></BUTTON></TD>
+		<TD>
+		<BUTTON type="reset"><P>Reset</P></BUTTON></TD>
+		</TR>
+		</TABLE>
+	</FORM>
+	<H2>Alerts & Updates</H2>
+	<MARQUEE class="auto-style">
+		<P>New Payment Option haS been introduced for ticket bookings !</P>
+		<P>Ticket Bookings on Mobile : Now book your movie ticket - ANYWHERE ANYTIME through your Mobile Phones.</P>
+	</MARQUEE>
+</BODY>
+</HTML>
+
+
+
+
+
+		
+
+		
+		
+
+
+
+		
+
