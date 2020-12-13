@@ -1,0 +1,2 @@
+# BookYourTicket
+My first HTML web page BookYourTicket (main.html)  opens home page (home1.html) and connects multiple pages through navigation (nav.html). It's implementing styles, animation (homestyle.css); working with table (upcomingmovies1.html); accessing multiple pages using frames (main.html); adding interactivity to page by implementing function using JavaScript (upcomingmovies1.html) and displaying an HTML form and implementing marquee effect (onlinebooking.html).
